@@ -1,0 +1,11 @@
+$_=<>;
+s/one$/1/;
+s/two$/2/;
+s/three$/3/;
+s/four$/4/;
+s/five$/5/;
+s/six$/6/;
+s/seven$/7/;
+s/eight$/8/;
+s/nine$/9/;
+print;

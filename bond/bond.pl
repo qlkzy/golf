@@ -1,0 +1,1 @@
+print reverse grep{/^(Barry Nelson|Bob Simmons|Sean Connery|Roger Moore|David Niven|George Lazenby|Timothy Dalton|Pierce Brosnan|Daniel Craig)$/&&!$s{$_}++}map{s/\d+ //;$_}sort{($a=~/(\d+)/)[0]<=>($b=~/(\d+)/)[0]}<>;
